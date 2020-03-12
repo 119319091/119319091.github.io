@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:LavenderBlush;" >
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<h1 style="border: 5px solid powderblue; text-align:center ;font-size:50px ;color:SeaGreen"> Welcome to my TechConsulting! </h1>
+
+<center>
+	<button class="button"><a href= "index.html">Home</a></button>
+	<button class="button"><a href="CV.html">CV</a></button>
+	<button class="button"><a href="interests.html">My Interests</a></button>
+	<button class="button"><a href="Consulting.html">About Consulting</a></button>
+	<button class="button"><a href="Ebus.html">E Business</a></button>
+	
+<h2 style="text-align:center;" > My interests </h2>
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="https://www.sunsetbeachclub.com/uploads/images/sbc-leisure/costa-del-sol-towns/benalmadena/813X457escapadas-costa-del-sol-homepage.jpg" style="width:100%">
+  <img class="mySlides" src="https://www.irishtimes.com/polopoly_fs/1.3320844.1512767021!/image/image.jpg_gen/derivatives/box_620_330/image.jpg" style="width:100%">
+  <img class="mySlides" src="https://cdn.londonandpartners.com/visit/general-london/areas/river/76709-640x360-houses-of-parliament-and-london-eye-on-thames-from-above-640.jpg" style="width:100%">
+  <img class="mySlides" src="https://www.jrailpass.com/blog/wp-content/uploads/2018/04/rugby-world-cup-japan-2019-800x416.jpg" style="width:100%;"
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+<h3 style="border: 1px solid powderblue; text-align:Left">Sports</h3>
+<h4><u>Rugby</u></h4>
+<p> Rugby is my favourite sport. My love for this sport grew over 2019 because of the rugby world cup in Japan. </p>
+<h5>The Rugby World Cup 2019</h5>
+<p> In 2019 japan hosted the rugby world cup. Over 20 countries took place.
+They were all originally separated into groups of 5 
+</p>
+<ul> 
+	<li>Ireland, Scotland, Japan, Russia, Samoa.</li>
+	<li>New Zealand, South Africa, Italy, Namibia, Canada.</li>
+	<li>England, France, Argentina, USA, Tonga. </li>
+	<li>Australia, Wales, Georgia, Fiji, Uruguay. </li>
+</ul>
+
+<h4 style="border: 1px solid powderblue; text-align:Left">Travel</h4>
+<h4><u>London </u></h4>
+<p> I go to london every year. I stay with family when i am over.
+I enjoy going to all the classic tourist spots while in London  </p>
+<p> My favourite places are : </P>
+	<ul> 
+	<li>The London Eye.</li>
+	<li>Big Ben.</li>
+	<li>Trafalgar square. </li>
+	<li>London Eye </li>
+<p> London is one of my favourite places in thr world. It is like a second home
+<h4><u>  Benalmadena</u> </h4>
+<p>I have gone to Benalmadena twice in my life with my family. We have stayed right by the beach everytime.
+In the early 21st century Benalmadena is one of the main tourist destinations on the Costa del Sol, with leisure facilities including an amusement park, two aquariums, a casino, a cable car and one of the largest marinas of Andalusia.
+
+
+
+ </p>
+</body>
+</html>
